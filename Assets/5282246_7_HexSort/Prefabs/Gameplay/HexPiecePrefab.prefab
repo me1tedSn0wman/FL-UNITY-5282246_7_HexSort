@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2978067024806286173
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: cdc149736f53df64bac08c461a11a7b8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cdc149736f53df64bac08c461a11a7b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cdc149736f53df64bac08c461a11a7b8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cdc149736f53df64bac08c461a11a7b8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cdc149736f53df64bac08c461a11a7b8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cdc149736f53df64bac08c461a11a7b8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cdc149736f53df64bac08c461a11a7b8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cdc149736f53df64bac08c461a11a7b8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cdc149736f53df64bac08c461a11a7b8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cdc149736f53df64bac08c461a11a7b8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cdc149736f53df64bac08c461a11a7b8, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cdc149736f53df64bac08c461a11a7b8, type: 3}
+      propertyPath: m_Name
+      value: HexPiecePrefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cdc149736f53df64bac08c461a11a7b8, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: cdc149736f53df64bac08c461a11a7b8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8659948904677045770}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: cdc149736f53df64bac08c461a11a7b8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5177171993717407156}
+  m_SourcePrefab: {fileID: 100100000, guid: cdc149736f53df64bac08c461a11a7b8, type: 3}
+--- !u!1 &2708160910331948556 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: cdc149736f53df64bac08c461a11a7b8, type: 3}
+  m_PrefabInstance: {fileID: 2978067024806286173}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8659948904677045770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2708160910331948556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66c51e6c93d6d7e48b0a787e2afb6e45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeMoving: -1
+  timeMoveGapDuration: 0.15
+  timeMoveDurationInit: 1
+  timeMoveDurationFinal: 0
+  isFlipping: 0
+  timeRemoving: -1
+  timeRemovingDuration: 0.5
+  rotationSpeedRemoving: 10
+  _hexPieceState: 0
+  redColor: {r: 0.9150943, g: 0, b: 0, a: 1}
+  yellowColor: {r: 1, g: 0.8830645, b: 0, a: 1}
+  greenColor: {r: 0, g: 0.9339623, b: 0.008810986, a: 1}
+  blueColor: {r: 0, g: 0.7390704, b: 1, a: 1}
+  snowColor: {r: 0.7924528, g: 0.7924528, b: 0.7924528, a: 1}
+  greyColor: {r: 0.16037738, g: 0.16037738, b: 0.16037738, a: 1}
+  violetColor: {r: 0.5056839, g: 0, b: 1, a: 1}
+  orangeColor: {r: 1, g: 0.6719017, b: 0, a: 1}
+  _hexPieceType: 0
+  _parentHexPieceTower: {fileID: 0}
+  _parentHexCell: {fileID: 0}
+  rend: {fileID: 0}
+  material: {fileID: 0}
+--- !u!114 &5177171993717407156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2708160910331948556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 739328ade87a9b44094929e8d02d00ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initialPoolCapacity: 60
